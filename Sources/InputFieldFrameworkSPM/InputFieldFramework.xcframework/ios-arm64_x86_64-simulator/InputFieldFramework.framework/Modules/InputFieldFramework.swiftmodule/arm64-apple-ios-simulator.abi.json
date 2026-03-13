@@ -1,0 +1,1320 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "InputFieldFramework",
+    "printedName": "InputFieldFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InputComponentStyle",
+        "printedName": "InputComponentStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rounded",
+            "printedName": "rounded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentStyle",
+                    "printedName": "InputFieldFramework.InputComponentStyle",
+                    "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO7roundedyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO7roundedyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dashed",
+            "printedName": "dashed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentStyle",
+                    "printedName": "InputFieldFramework.InputComponentStyle",
+                    "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO6dashedyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO6dashedyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "underline",
+            "printedName": "underline",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentStyle",
+                    "printedName": "InputFieldFramework.InputComponentStyle",
+                    "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO9underlineyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO9underlineyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "curved",
+            "printedName": "curved",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentStyle",
+                    "printedName": "InputFieldFramework.InputComponentStyle",
+                    "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO6curvedyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO6curvedyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "threeD",
+            "printedName": "threeD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentStyle",
+                    "printedName": "InputFieldFramework.InputComponentStyle",
+                    "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO6threeDyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO6threeDyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "shadow",
+            "printedName": "shadow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> (Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO6shadowyACSicACmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO6shadowyACSicACmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "bordered",
+            "printedName": "bordered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> (Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO8borderedyACSicACmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO8borderedyACSicACmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentStyle.Type) -> (Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> InputFieldFramework.InputComponentStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentStyle",
+                        "printedName": "InputFieldFramework.InputComponentStyle",
+                        "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A14ComponentStyleO6customyACSicACmF",
+            "mangledName": "$s19InputFieldFramework0A14ComponentStyleO6customyACSicACmF",
+            "moduleName": "InputFieldFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19InputFieldFramework0A14ComponentStyleO",
+        "mangledName": "$s19InputFieldFramework0A14ComponentStyleO",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InputComponentType",
+        "printedName": "InputComponentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO5emailyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO5emailyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "password",
+            "printedName": "password",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO8passwordyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO8passwordyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO4nameyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO4nameyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO11phoneNumberyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO11phoneNumberyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "otp",
+            "printedName": "otp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO3otpyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO3otpyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dropDown",
+            "printedName": "dropDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO8dropDownyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO8dropDownyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "postalCode",
+            "printedName": "postalCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO10postalCodeyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO10postalCodeyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO7addressyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO7addressyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "datePicker",
+            "printedName": "datePicker",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO10datePickeryA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO10datePickeryA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO3ageyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO3ageyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "search",
+            "printedName": "search",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO6searchyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO6searchyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputComponentType",
+                    "printedName": "InputFieldFramework.InputComponentType",
+                    "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO6amountyA2CmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO6amountyA2CmF",
+            "moduleName": "InputFieldFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InputFieldFramework.InputComponentType.Type) -> (Swift.String) -> InputFieldFramework.InputComponentType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> InputFieldFramework.InputComponentType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InputFieldFramework.InputComponentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputComponentType",
+                        "printedName": "InputFieldFramework.InputComponentType",
+                        "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InputFieldFramework0A13ComponentTypeO6customyACSScACmF",
+            "mangledName": "$s19InputFieldFramework0A13ComponentTypeO6customyACSScACmF",
+            "moduleName": "InputFieldFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19InputFieldFramework0A13ComponentTypeO",
+        "mangledName": "$s19InputFieldFramework0A13ComponentTypeO",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InputFieldFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InputComponent",
+        "printedName": "InputComponent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:style:placeholder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InputComponent",
+                "printedName": "InputFieldFramework.InputComponent",
+                "usr": "s:19InputFieldFramework0A9ComponentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputComponentType",
+                "printedName": "InputFieldFramework.InputComponentType",
+                "usr": "s:19InputFieldFramework0A13ComponentTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputComponentStyle",
+                "printedName": "InputFieldFramework.InputComponentStyle",
+                "hasDefaultArg": true,
+                "usr": "s:19InputFieldFramework0A14ComponentStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.LocalizedStringResource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalizedStringResource",
+                    "printedName": "Foundation.LocalizedStringResource",
+                    "usr": "s:10Foundation23LocalizedStringResourceV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19InputFieldFramework0A9ComponentV4type5style11placeholderAcA0aD4TypeO_AA0aD5StyleO10Foundation23LocalizedStringResourceVSgtcfc",
+            "mangledName": "$s19InputFieldFramework0A9ComponentV4type5style11placeholderAcA0aD4TypeO_AA0aD5StyleO10Foundation23LocalizedStringResourceVSgtcfc",
+            "moduleName": "InputFieldFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InputFieldFramework0A9ComponentV4bodyQrvp",
+            "mangledName": "$s19InputFieldFramework0A9ComponentV4bodyQrvp",
+            "moduleName": "InputFieldFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InputFieldFramework0A9ComponentV4bodyQrvg",
+                "mangledName": "$s19InputFieldFramework0A9ComponentV4bodyQrvg",
+                "moduleName": "InputFieldFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19InputFieldFramework0A9ComponentV",
+        "mangledName": "$s19InputFieldFramework0A9ComponentV",
+        "moduleName": "InputFieldFramework",
+        "intro_iOS": "17",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 583,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 656,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1109,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1135,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 1226,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1252,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1288,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1405,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponentTheme\/InputComponentTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 1438,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6548,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/ianshul\/Desktop\/Projects\/InputFieldFramework\/InputFieldFramework\/InputComponent\/InputComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 6566,
+      "length": 7,
+      "value": "\"Email\""
+    }
+  ]
+}

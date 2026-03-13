@@ -1,0 +1,49 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios26.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name InputFieldFramework
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum InputComponentStyle {
+  case rounded
+  case dashed
+  case underline
+  case curved
+  case threeD
+  case shadow(Swift.Int)
+  case bordered(Swift.Int)
+  case custom(Swift.Int)
+}
+public enum InputComponentType {
+  case email
+  case password
+  case name
+  case phoneNumber
+  case otp
+  case dropDown
+  case postalCode
+  case address
+  case datePicker
+  case age
+  case search
+  case amount
+  case custom(Swift.String)
+}
+@available(iOS 17, *)
+@_Concurrency.MainActor @preconcurrency public struct InputComponent : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(type: InputFieldFramework.InputComponentType, style: InputFieldFramework.InputComponentStyle = .rounded, placeholder: Foundation.LocalizedStringResource? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 17, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s19InputFieldFramework0A9ComponentV4bodyQrvp", 0) __
+}
+
+@available(iOS 17, *)
+extension InputFieldFramework.InputComponent : Swift.Sendable {}
