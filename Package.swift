@@ -17,7 +17,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
                     name: "InputFieldFrameworkSPM",
-                    path: "InputFieldFrameworkSPM/Sources/InputFieldFrameworkSPM/InputFieldFramework.xcframework"
+                    path: "InputFieldFramework.xcframework"
                 ),
 
     ]
